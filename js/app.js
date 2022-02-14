@@ -1,5 +1,4 @@
- 
-console.log("Welcome to notes app. This is app.js");
+ console.log("Welcome to notes app. This is app.js");
 showNotes();
 
 // If user adds a note, add it to the localStorage
@@ -61,8 +60,6 @@ function deleteNote(index) {
   localStorage.setItem("notes", JSON.stringify(notesObj));
   showNotes();
 }
-
-
 let search = document.getElementById('searchTxt');
 search.addEventListener("input", function(){
 
